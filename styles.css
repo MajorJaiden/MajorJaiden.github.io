@@ -8,7 +8,7 @@ h1 {
 }
 h2 {
     font-family: Verdana, 'Courier New', monospace;
-    color:rgb(0, 0, 0)
+    color:rgb(77,238,234)
 }
 .projects { 
     display:flex; 
@@ -16,10 +16,12 @@ h2 {
 } 
 .project {
     width: 30%;
+    height: 30%;
     margin: 10px;
     padding: 10px 10px;
     background: rgb(0, 0, 0); /* pick a color */
     border-radius: 25%;
+    border: 2px solid rgb (100, 100, 100);
 }
 
 .project img{
@@ -39,3 +41,24 @@ p {
     text-decoration: none;
     color: white;
   }     
+  .about
+  {
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+    }
+.about img 
+{
+width: 150px;
+height: 200px;
+border-radius: 25%;
+border: 2px solid rgb(126, 14, 201);
+}
+.about p {
+    width:50%;
+    text-align: center;
+    margin: auto;
+    line-height: 125%;
+    }      
